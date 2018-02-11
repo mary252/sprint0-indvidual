@@ -1,0 +1,14 @@
+Cd E:\sprit0ind
+Git init
+git add *.txt
+git rm --cached 3.1.txt
+git add 3.1.txt
+git commit
+git remote add origin https://github.com/mary252/sprint0-indvidual.git
+git push -u origin master
+git branch ReadMe
+git checkout ReadMe
+git add README.md
+git commit
+git checkout master
+git merge ReadMe
